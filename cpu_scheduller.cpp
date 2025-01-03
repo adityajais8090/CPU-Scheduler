@@ -80,7 +80,7 @@ void sjf_schedule(vector<Task>& tasks, vector<pair<int, int>>& schedule) {
         }
         t++;
     }
-
+     // added
     for (int i = 0; i < n; i++) {
         tasks[i].turnaround_time = tasks[i].burst_time + tasks[i].waiting_time;
     }
